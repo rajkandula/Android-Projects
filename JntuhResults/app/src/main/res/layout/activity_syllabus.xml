@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:background="@drawable/ic_bg_topheader">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Syllabus Book"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="30sp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+
+            android:layout_marginTop="40dp"
+            android:textSize="12sp"
+            android:id="@+id/cofffered"
+            android:text="B.Tech.CoursesApprovedforAY2020"
+            android:background="@drawable/ic_bg_topheader"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </Button>
+
+
+    <Button
+
+        android:layout_marginTop="40dp"
+        android:id="@+id/book1"
+        android:text="R17 Syllabus"
+        android:background="@drawable/ic_bg_topheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Button>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/book2"
+        android:text="R18 Syllabus"
+        android:background="@drawable/ic_bg_topheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Button>
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/book3"
+        android:text="R19 Syllabus"
+        android:background="@drawable/ic_bg_topheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Button>
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/book4"
+        android:text="R20 Syllabus"
+        android:background="@drawable/ic_bg_topheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Button>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+  <!--  <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_bible"
+            android:visible="false"
+            android:icon="@drawable/ic_browse"
+            android:title="Telugu Bible">
+        </item>
+    </group>
+-->
+
+
+    <item android:title="ACA-COMMUNITY">
+
+
+
+        <menu>
+
+            <group
+                android:id="@+id/group"
+                android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="Home">
+            </item>
+
+            <item
+                android:id="@+id/nav_devotions"
+                android:icon="@drawable/ic_browse"
+                android:title="Daily Devotions">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_ptime"
+                android:icon="@drawable/ic_timing"
+                android:title="Prayer Timings">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_preq"
+                android:icon="@drawable/ic_prequest"
+                android:title="Prayer Request">
+
+            </item>
+
+
+            <item
+                android:id="@+id/nav_songs"
+                android:icon="@drawable/ic_audios"
+                android:title="Audio Songs">
+
+            </item>
+                <item
+                    android:id="@+id/nav_cal"
+                    android:icon="@drawable/ic_calendar"
+                    android:title="Calendar 2021">
+
+                </item>
+
+
+
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_gallery"
+                android:title="Gallery">
+
+            </item>
+                <item
+                    android:id="@+id/nav_livetv"
+                    android:icon="@drawable/ic_livetv"
+                    android:title="Live">
+
+                </item>
+            </group>
+
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="Connect With Us">
+        <menu>
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single">
+
+
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Us">
+
+            </item>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus"
+                android:title=" About Us">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Invite App">
+
+            </item>
+            </group>
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

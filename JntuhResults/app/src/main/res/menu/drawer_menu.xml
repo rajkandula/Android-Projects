@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard">
+
+        </item>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_24"
+            android:title="Search">
+
+        </item>
+        <item
+            android:id="@+id/nav_sgpa"
+            android:icon="@drawable/ic_sgpacalculate_24"
+            android:title="Calculate SGPA">
+
+        </item>
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile">
+
+        </item>
+
+
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notifications">
+
+        </item>
+
+
+        <item
+            android:id="@+id/nav_resume"
+            android:icon="@drawable/ic_resumebuilder"
+            android:title="Fresher Resume Builder">
+
+        </item>
+
+
+
+
+
+
+                <item
+                    android:id="@+id/nav_jntuh"
+                    android:icon="@drawable/ic_new"
+                    android:title="Visit JNTU-H">
+
+                </item>
+
+
+
+    <item android:title="Results Portal">
+        <menu>
+
+            <item
+                android:id="@+id/nav_btechresults"
+                android:icon="@drawable/ic_new"
+
+                android:title="Btech Results">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_bpharmacyresults"
+                android:icon="@drawable/ic_new"
+                android:visible="false"
+                android:title="B.Pharmacy Results">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_mtechresults"
+                android:icon="@drawable/ic_new"
+                android:visible="false"
+                android:title="M.Tech Results">
+
+            </item>
+
+        </menu>
+    </item>
+
+
+
+
+
+
+
+
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_buycoffee"
+                android:icon="@drawable/ic_cf"
+                android:visible="false"
+                android:title="Buy Me a Cup Of Coffee">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback">
+
+            </item>
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About us">
+
+            </item>
+
+        </menu>
+    </item>
+
+
+    </group>
+
+
+</menu>

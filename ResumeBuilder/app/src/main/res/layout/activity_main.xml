@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resume Header:"
+        android:textStyle="bold"
+            android:textSize="30sp">
+    </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+  <EditText
+      android:id="@+id/etext_1"
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter Full Name"
+      android:gravity="center">
+
+  </EditText>
+    <EditText
+        android:id="@+id/etext_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter House Number Eg: HNO: XX-XX-X/X"
+        android:gravity="center">
+
+    </EditText>
+
+        <EditText
+            android:id="@+id/etext_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Eg: City, State, Pincode">
+
+        </EditText>
+        <EditText
+            android:id="@+id/etext_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number Eg:+91 XX...521"
+            android:gravity="center">
+        </EditText>
+        <EditText
+            android:id="@+id/etext_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Enter Gmail ID"
+            android:gravity="center">
+        </EditText>
+
+
+        <Button
+            android:id="@+id/submit_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:text="NeXT">
+        </Button>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll_objective"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_objective"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBJECTIVE:"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_objective"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Objective"
+            android:gravity="center">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            android:text="Eg: To work in a challenging environment where I can show my technical skills,creativity, and contribute to the growth of an organization.">
+        </TextView>
+        <Button
+            android:id="@+id/submit_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+<!--LEducation Data-->
+    <LinearLayout
+        android:id="@+id/ll_education"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDUCATION DETAILS:"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_clg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your College Name with City">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            android:text="Eg: Mahatma Gandhi Institute Of Technology, Hyderabad, Telangana, India">
+        </TextView>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/etext_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg: 2016-2020"> </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            android:text="Eg:Persuing  or \nEg: 2016-2020">
+        </TextView>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/etext_stream"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Designation">
+            </EditText>
+            <TextView
+                android:textIsSelectable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Eg: Bachelor's of Engineering in Computer Science">
+            </TextView>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/etext_gpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your GPA or CGPA">
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Eg: GPA-7.2 \n or \nEg: CGPA-6.8 \n">
+            </TextView>
+
+
+        <Button
+            android:id="@+id/submit_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+
+
+    <!--Skils Data-->
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll_skills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SKILLS:"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_Lskills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Language SKills"
+            android:gravity="center">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            android:text="Eg: Proficient in C, C++, Java and Python.">
+        </TextView>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/etext_environment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Environment SKills"
+            android:gravity="center">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: Proficient in Netbeans, Pycharm, Android Studio and Unity.">
+        </TextView>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/etext_os"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Environment SKills"
+            android:gravity="center">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: Familiar with Windows and UNIX Operating Systems.">
+        </TextView>
+        <Button
+            android:id="@+id/submit_btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+
+    <!--Activities / Projects-->
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll_Activities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTIVITIES / PROJECTS :"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_activities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Activities"
+            android:gravity="center">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: Reading Books.\nEg: Writing Blogs.">
+        </TextView>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Sample Project"
+            android:gravity="center">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: Developed App and published in Play Store.\nEg: Developed Webisite.">
+        </TextView>
+
+        <Button
+            android:id="@+id/submit_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+
+    <!--Achievements-->
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll_Achievements"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACHIEVEMENTS:"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_ach1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Achievements1">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: Received Python Certificate from Coursera.">
+        </TextView>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_ach2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Achievements2">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: Organized technical events.">
+        </TextView>
+
+        <Button
+            android:id="@+id/submit_btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+
+    <!--Declaration-->
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll_Declaration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DECLARATION:"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_declaration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Declaration">
+        </EditText>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Eg: I here by that details furnished above are true and correct to the best of my knowledge and belief. I undertake to inform you of any changes ther in, immediately.">
+        </TextView>
+
+        <Button
+            android:id="@+id/submit_btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+
+    <!--Signature -->
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/ll_signature"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etext_sign"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Full Name">
+        </EditText>
+
+
+        <Button
+            android:id="@+id/submit_btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SubMit">
+
+        </Button>
+    </LinearLayout>
+
+
+
+    <!-- resume design text-->
+        <LinearLayout
+            android:padding="5dp"
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/rtext_1"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XxxxXxxxXxxxX"
+                android:hint="field1"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxxXxxxX"
+                android:hint="field2"
+                android:gravity="center">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/rtext_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxXxxXxx"
+                android:hint="field3">
+
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxxXX"
+                android:hint="field4"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_5"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxxXxx"
+                android:hint="field5"
+                android:gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OBJECTIVE"
+                android:textStyle="bold"
+                android:textSize="14sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray">
+            </View>
+
+            <TextView
+                android:id="@+id/rtext_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxxXXxxx"
+                android:hint="field6">
+            </TextView>
+
+<!--education-->
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDUCATION"
+                android:textStyle="bold"
+                android:textSize="14sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray">
+            </View>
+
+
+
+            <TextView
+                android:id="@+id/rtext_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxxXxXXxxxX"
+                android:hint="field7">
+
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_8"
+                android:layout_gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxxXxxXxxXxxxx"
+                android:hint="field8">
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:id="@+id/rtext_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxXxxXxXxX"
+                android:hint="field9">
+
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_10"
+                android:layout_gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxxXXxx"
+                android:hint="field10">
+            </TextView>
+
+
+
+
+
+<!--Skills-->
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILLS"
+                android:textStyle="bold"
+                android:textSize="14sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray">
+            </View>
+
+
+            <TextView
+                android:id="@+id/rtext_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxxXxxXXxxXx"
+                android:hint="field11">
+            </TextView>
+
+
+
+
+                <TextView
+                    android:id="@+id/rtext_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="XxxXxxxXXxxXx"
+                    android:hint="field12">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rtext_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="XxxXxxxxXxxxX"
+                    android:hint="field13">
+                </TextView>
+
+
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACTIVITIES / PROJECTS"
+                android:textStyle="bold"
+                android:textSize="14sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray">
+            </View>
+            <TextView
+                android:id="@+id/rtext_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxXxxxXxx"
+                android:hint="field14">
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxXxxxxXxx"
+                android:hint="field15">
+            </TextView>
+
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACHIEVEMENTS"
+                android:textStyle="bold"
+                android:textSize="14sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray">
+            </View>
+            <TextView
+                android:id="@+id/rtext_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxX-XxxX"
+                android:hint="field16">
+            </TextView>
+            <TextView
+                android:id="@+id/rtext_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxX-XxxxXxx"
+                android:hint="field17">
+            </TextView>
+
+
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DECLARATION"
+                android:textStyle="bold"
+                android:textSize="14sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray">
+            </View>
+            <TextView
+                android:id="@+id/rtext_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="XxxXxxXxx"
+                android:hint="field18">
+            </TextView>
+
+            <TextView
+                android:id="@+id/rtext_19"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:hint="field19"
+                android:text="XxxX-XxxX">
+            </TextView>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

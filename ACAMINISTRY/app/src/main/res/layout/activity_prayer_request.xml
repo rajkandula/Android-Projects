@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".PrayerRequest">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="60dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Name*">
+
+    </TextView>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etext_n"
+        android:background="@drawable/textview_box">
+    </EditText>
+
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Mobile*">
+
+        </TextView>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/etext_m"
+            android:background="@drawable/textview_box">
+        </EditText>
+
+
+<TextView
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Prayer Request*">
+</TextView>
+
+
+    <EditText
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/etext_pm"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/textview_box"
+        android:ems="50"
+        android:gravity="start|top"
+        android:inputType="textMultiLine">
+    </EditText>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+
+        android:text="SubMit">
+    </Button>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

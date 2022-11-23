@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Profile">
+
+    <EditText
+        android:hint="Name"
+        android:gravity="center"
+        android:id="@+id/text1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:hint="RollNo"
+        android:gravity="center"
+        android:id="@+id/text2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="140dp"
+    android:layout_height="60dp">
+
+</Button>
+</LinearLayout>

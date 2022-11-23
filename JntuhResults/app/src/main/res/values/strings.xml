@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Jntuh Results</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="link1">Privacy Policy: https://hiachievers.blogspot.com/2020/11/privacy-policy-achievers-built-jntuh.html
+
+        Terms &amp; Conditions: https://hiachievers.blogspot.com/2020/11/terms-conditions-by-downloading-or.html</string>
+    <string name="link2">https://hiachievers.blogspot.com/2020/11/terms-conditions-by-downloading-or.html</string>
+
+    <string name="pptc">Privacy Policy &amp; Terms &amp; Conditions
+        Effective from November 2, 2020</string>
+
+
+    <string name="jntuh_grading_system_grade_letter">JNTUH Grading System – Grade Letter</string>
+    <string name="_80_90"><![CDATA[(≥80%, <90%)]]></string>
+    <string name="_90_100">(≥90%, ≤100%)</string>
+    <string name="_70_80"><![CDATA[(≥70%, <80%)]]></string>
+    <string name="_60_70"><![CDATA[(≥60%, <70%)]]></string>
+    <string name="_40_50"><![CDATA[(≥40%, <50%)]]></string>
+    <string name="_40"><![CDATA[(<40%)]]></string>
+    <string name="_50_60"><![CDATA[(≥50%, <60%)]]></string>
+    <string name="cgpa_7_75"><![CDATA[CGPA>=7.75]]></string>
+    <string name="cgpa_6_75"><![CDATA[CGPA>=6.75]]></string>
+    <string name="cgpa_5_75"><![CDATA[CGPA>=5.75]]></string>
+    <string name="cgpa_4_75"><![CDATA[CGPA>=4.75]]></string>
+    <string name="cgpa_l4_75"><![CDATA[CGPA<=4.75]]></string>
+</resources>

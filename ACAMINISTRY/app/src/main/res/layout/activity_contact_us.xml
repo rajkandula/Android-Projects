@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_marginTop="20dp"
+    tools:context=".ContactUs">
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+        <TextView
+            android:visibility="gone"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:background="@drawable/textview_box"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+                <TextView
+                   android:padding="5dp"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:\nPastor. B Sudarshanam\nFounder of ACA MINISTRY SULANAGAR\nSulanagar ( Post ), Tekulapally ( Mandal ),\nBhadradri Kothagudem ( Dist. )\nTelangana 507123"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="5dp"
+                    android:background="@drawable/textview_box"
+                    android:textStyle="bold">
+                </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+        <TextView
+           android:background="@drawable/textview_box"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Queries and Prayer Requests:"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/call1"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+
+        <TextView
+            android:id="@+id/cal1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_box"
+            android:padding="10dp"
+            android:text="Call : 9949205371"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="1dp"
+        android:id="@+id/call2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+        <TextView
+            android:id="@+id/cal2_txt"
+            android:background="@drawable/textview_box"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call : 9949765560"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+    <!---quires-->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+        <TextView
+            android:background="@drawable/textview_box"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Any other Live Updates:"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/contact1"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+        <TextView
+            android:id="@+id/contact1_txt"
+            android:padding="10dp"
+            android:background="@drawable/textview_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call : 9963215677"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/contact2"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="6dp">
+        <TextView
+            android:id="@+id/contact2_txt"
+            android:background="@drawable/textview_box"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call : 9866432407"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</LinearLayout>

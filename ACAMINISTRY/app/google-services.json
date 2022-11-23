@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "435181752924",
+    "project_id": "acaministry-e5f80",
+    "storage_bucket": "acaministry-e5f80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435181752924:android:be46583ce4fd8c2cbacc99",
+        "android_client_info": {
+          "package_name": "com.achievers.acaministry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435181752924-q0fpedr261no94e1vh1ln13c8vljapkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.achievers.acaministry",
+            "certificate_hash": "7053c7eb143b3b8e537327e320ea88675a1f2e74"
+          }
+        },
+        {
+          "client_id": "435181752924-ljutaq230ls6sp1a04e8bsahk056n889.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmLT5kC-g-FWJO3EV6X3V8fviGrlv9qSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435181752924-ljutaq230ls6sp1a04e8bsahk056n889.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

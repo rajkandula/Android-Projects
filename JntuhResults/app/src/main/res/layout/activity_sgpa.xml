@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Credits"
+                android:padding="2dp">
+            </Button>
+
+            <EditText
+                android:id="@+id/credit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/boxtype"
+                android:inputType="number"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:text="4"></EditText>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/credit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boxtype"
+                android:inputType="number"
+                android:text="4"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/credit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boxtype"
+                android:inputType="number"
+                android:text="4"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/credit4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boxtype"
+                android:inputType="number"
+                android:text="3"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/credit5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boxtype"
+                android:inputType="number"
+                android:text="3"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/credit6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boxtype"
+                android:inputType="number"
+                android:text="3"
+                android:singleLine="true"></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="6dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                 android:text="Grades"
+                android:padding="2dp"></Button>
+            <EditText
+                android:text="0"
+                android:layout_marginTop="2dp"
+                android:id="@+id/grade1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"
+                android:padding="2dp"></EditText>
+            <EditText
+                android:text="0"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/grade2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype">
+
+            </EditText>
+            <EditText
+                android:text="0"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/grade3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype">
+
+            </EditText>
+            <EditText
+                android:text="0"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/grade4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype">
+
+            </EditText>
+            <EditText
+                android:text="0"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/grade5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype">
+
+            </EditText>
+            <EditText
+                android:text="0"
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/grade6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/total_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <Button
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:text="Total"></Button>
+
+            <EditText
+                android:layout_marginTop="2dp"
+                android:padding="2dp"
+                android:id="@+id/cg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"></EditText>
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/cg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"></EditText>
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/cg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"></EditText>
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/cg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"></EditText>
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/cg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"></EditText>
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="2dp"
+                android:id="@+id/cg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/boxtype"></EditText>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalcredits"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="305dp"
+        android:background="@drawable/boxtype"
+        android:gravity="center"
+        android:text="Submit"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"></TextView>
+    <Button
+        android:id="@+id/btn_submit"
+        android:text="submit"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:layout_marginTop="305dp">
+    </Button>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:splitMotionEvents="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:paddingRight="10dp">
+                <TableRow android:background="#4CAF50" android:padding="5dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                  android:gravity="center_horizontal"
+                    android:text="JNTUH Grading" />
+                </TableRow>
+                <TableRow android:background="#F6ED98" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="%of Marks" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="Grade Letter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="Grade Point" />
+                </TableRow>
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="@string/_90_100"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="O(Outstanding)" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="10"/>
+                </TableRow>
+                <TableRow
+                    android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/_80_90" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="A+(Excellent)" />
+
+                    <TextView
+                        android:layout_width="24dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="9" />
+                </TableRow>
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="@string/_70_80" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="A(Very Good)" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="@string/_60_70"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="B+(Good)" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="7"/>
+                </TableRow>
+                <TableRow
+                    android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/_50_60" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="B(Average)" />
+
+                    <TextView
+                        android:layout_width="24dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="6" />
+                </TableRow>
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="@string/_40_50" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="C(Pass)" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="5" />
+                </TableRow>
+
+
+                <TableRow
+                    android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/_40" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="F(FAIL)" />
+
+                    <TextView
+                        android:layout_width="24dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="0" />
+                </TableRow>
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="Absent" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="AB" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="0" />
+                </TableRow>
+
+            </TableLayout>
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+        <TableRow android:background="#4CAF50" android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:text="JNTUH Class Award" />
+        </TableRow>
+        <TableRow android:background="#F6ED98" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="S.No" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Class Awarded" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Range of CGPA" />
+        </TableRow>
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Distinction" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="@string/cgpa_7_75"/>
+        </TableRow>
+        <TableRow
+            android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="First Class" />
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/cgpa_6_75" />
+        </TableRow>
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Second Class" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="@string/cgpa_5_75" />
+        </TableRow>
+
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Pass Class" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="@string/cgpa_4_75"/>
+        </TableRow>
+        <TableRow
+            android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Fail" />
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/cgpa_l4_75" />
+        </TableRow>
+        </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
