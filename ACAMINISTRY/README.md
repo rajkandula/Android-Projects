@@ -12,4 +12,3 @@ Click here to Download Now - https://play.google.com/store/apps/details?id=com.a
 ![Screen0](https://play-lh.googleusercontent.com/-BQxe4GdQ5NG-fqD6CH6ZJGNPHhn8oCB3cgIu3l8Fyf1x6SRfFh68x1XKmVDRd0F8Q=w5120-h2880-rw)
 ![Screen1](https://play-lh.googleusercontent.com/QFUrTJ0NyflR35vnsGslO1P62-qUp9DhrHCu8akOaJ1W_gxhvr-PEuS78cxKmo0C6Q0=w5120-h2880-rw)
 ![Screen2](https://play-lh.googleusercontent.com/4y7l5VrofyZrBv8M-DS82ep7Y-8UdBFrBJBZINVoIsGtV_C2c_Ggq9hZ3TQUf02xMcQ=w720-h310-rw)
-![Screen3]([https://play-lh.googleusercontent.com/k2PlYYIBuZVxC0PUsOWShLgjU8fQqnDz8mP_0kpZE5DkmsKw35UbLC8zZk6Qt5RVLhA=w720-h310-rw](https://play-lh.googleusercontent.com/wi1SGY0k1kOCHkpNM7ePdwdkaK9zgxDSquWY9lSpqqSmjnrh_inxJj4hT6vJRAuWBfMF=w5120-h2880-rw))
