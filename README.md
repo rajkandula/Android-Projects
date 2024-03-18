@@ -1,16 +1,14 @@
 # MyProject 1
-![gplay](https://user-images.githubusercontent.com/83225523/125150000-1628a200-e15a-11eb-8500-2a8b7c38fd35.png)
-
-## JNTUH Mobile App Available in Play Store
 
 
+## Developing a University App, that helps keep connecting students always with the latest updates from the university. The features included in the app like Saving notes, checking events, news, exam updates, project updates, checking exam results, finding material notes, resume builder, GPA Calculator, and much more, etc.
 # Jntuh Results Mobile Application
-
+![gplay](https://user-images.githubusercontent.com/83225523/125150000-1628a200-e15a-11eb-8500-2a8b7c38fd35.png)
 
 Click here to Download Now - https://play.google.com/store/apps/details?id=com.achievers.jntuhresults
 
 
-# JNTUH Mobile App UI:
+# University Mobile App UI:
 
 ![Screen0](https://play-lh.googleusercontent.com/lZJ7NtgJl9b6tLHUMbpLGeIf6WStUrZRHcXKV5lXc_M_k0yqOCLDnFDAuulA1rh6MMM=w720-h310-rw)
 ![Screen1](https://play-lh.googleusercontent.com/WA6ECPlkrV3DYNZTKpqv6mWJpihe0Kn7IDkn0mEeS5I3ZBL_FOOcrXpFICAtHjgt0ilb=w720-h310-rw)
