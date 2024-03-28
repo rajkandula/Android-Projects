@@ -22,7 +22,6 @@ Click here to Download Now - https://play.google.com/store/apps/details?id=com.a
 My Project 2:
 
 ## EasyOfficeFree Mobile App Available in Play Store
-# EasyOfficeFree Mobile Application
 
 under development - https://play.google.com/store/apps/details?id=com.achievers.easyofficefree
 
