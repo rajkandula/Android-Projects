@@ -1,7 +1,7 @@
 # MyProject 1
 
 
-## Developing a University App, that helps keep connecting students always with the latest updates from the university. The features included in the app like Saving notes, checking events, news, exam updates, project updates, checking exam results, finding material notes, resume builder, GPA Calculator, and much more, etc.
+Developing a University App, that helps keep connecting students always with the latest updates from the university. The features included in the app like Saving notes, checking events, news, exam updates, project updates, checking exam results, finding material notes, resume builder, GPA Calculator, and much more, etc.
 # Jntuh Results Mobile Application
 ![gplay](https://user-images.githubusercontent.com/83225523/125150000-1628a200-e15a-11eb-8500-2a8b7c38fd35.png)
 
